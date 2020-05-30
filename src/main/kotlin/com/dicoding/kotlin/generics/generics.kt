@@ -20,8 +20,8 @@ class LongList: List<Long> {
     }
 }
 
-class ArrayList<T>: List<T> {
-    override fun get(index: Int): T {
-        /* ... */
+class ArrayList<T>: List<Int> {
+    override fun get(index: Int): Int {
+        return 0
     }
 }
